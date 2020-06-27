@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <title>Weather App</title>
+        <p>Weather Today<p>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        
+        
+        <style>
+            body {
+              background-image: url('images/download.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;  
+              background-size: cover;
+              text-align:center;
+            }
+            form{
+                position:absolute;
+                left:30%;
+                top:50%;
+                font-size: xx-large;
+            }
+            button{
+                font-size: xx-large;
+                background-color:lightblue;
+            }
+            p{
+                text-align:left;
+                position:absolute;
+                left:5%;
+                top:5%;
+                font-size: 50px;
+                color: white;
+
+            }
+            i{
+                position: relative;
+                top: -4px;
+                left: 310px;
+              }
+
+            
+            </style>
+        
+         </head>
+        
+    <!--<body style="background-image:url('images/h.jpg');text-align:center;"> -->
+       <body>
+        <i class="material-icons" style="font-size:68px;">cloud</i>
+        <form action = "/" method = "post">
+        <label for = "cityinput">City Name:</label>
+        <input id ="cityinput" type ="text" name = "cityName" style="width: 200px; height: 40px;" >
+        <button  type = "submit">What's the weather today?</button>
+        </form>
+    </body>
+</html>
